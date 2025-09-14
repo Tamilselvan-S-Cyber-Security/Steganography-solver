@@ -1,0 +1,9 @@
+@echo off
+echo Starting Wolf Image Bullender...
+echo.
+echo Installing dependencies if needed...
+pip install -r requirements.txt
+echo.
+echo Starting application...
+python wolf_image_bullender.py
+pause
